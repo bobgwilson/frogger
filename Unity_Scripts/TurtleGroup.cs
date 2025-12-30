@@ -33,7 +33,7 @@ public class TurtleGroup : MonoBehaviour
     {
         spriteRenderers = GetComponentsInChildren<SpriteRenderer>();
         levelStartTime = Time.time;
-        nextDiveStartTime = levelStartTime + framesBeforeFirstDive / FramesPerSecond;
+        nextDiveStartTime = framesBeforeFirstDive / FramesPerSecond;
     }
     
     /// <summary>
