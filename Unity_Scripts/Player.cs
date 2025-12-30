@@ -17,8 +17,7 @@ public class Player : MonoBehaviour
     private float hopStartTime;
     private Vector2 hopStartPosition;
     private Vector2 hopEndPosition;
-
-
+    
     public PlayerState State { get; private set; }
 
     private void Awake()
