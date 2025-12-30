@@ -55,7 +55,7 @@ public sealed class GameManager : MonoBehaviour
     
     private int highScore;
     /// <summary>
-    /// The player's current score. Automatically updates UI and high score when set.
+    /// The high score. Automatically updates UI and high score when set.
     /// </summary>
     private int HighScore
     {
